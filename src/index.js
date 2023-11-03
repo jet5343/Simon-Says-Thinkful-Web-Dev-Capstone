@@ -7,6 +7,10 @@ const startButton = document.querySelector(".js-start-button");
 const statusSpan = document.querySelector(".js-status"); // Use querySelector() to get the status element
 const heading = document.querySelector(".js-heading"); // Use querySelector() to get the heading element
 const padContainer = document.querySelector(".js-pad-container"); // Use querySelector() to get the heading element
+const redPress = document.querySelector("#redPress"); // Sound for clicking the red pad
+const bluePress = document.querySelector("#bluePress"); // Sound for clicking the blue pad
+const greenPress = document.querySelector("#greenPress"); // Sound for clicking the green pad
+const yellowPress = document.querySelector("#yellowPress"); // Sound for clicking the purple pad
 
 /**
  * VARIABLES
