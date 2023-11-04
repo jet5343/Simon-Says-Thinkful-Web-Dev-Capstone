@@ -93,9 +93,7 @@ function padHandler(event) {
   if (!color) return;
   const pad = pads.find((pad) => pad.color === color);
   pad.sound.play();
-
   checkPress(color);
-
   return color;
 }
 
